@@ -52,3 +52,35 @@ body{
     border: 1px solid #ccc;
     background-color: #f0f0f0;
 }
+
+ 
+.rules-container {
+    margin-top: 40px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.rules-container h3 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.rules-container p, .rules-container ul, .rules-container ol {
+    margin-bottom: 15px;
+}
+
+.rules-container ul, .rules-container ol {
+    padding-left: 20px;
+}
+
+.rules-container li {
+    margin-bottom: 5px;
+}

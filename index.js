@@ -5,9 +5,8 @@ let UserSeq = [];
 
 let level = 0;
 let heading = document.querySelector("h2");
-let startBtn = document.querySelector("#start-btn"); // Select the new button
+let startBtn = document.querySelector("#start-btn");
 
-// Add a click event listener to the start button
 startBtn.addEventListener("click", function () {
   if (start == false) {
     console.log("game started");
@@ -15,15 +14,6 @@ startBtn.addEventListener("click", function () {
     levelup();
   }
 });
-
-// Remove the old keypress event listener
-// document.addEventListener("keypress", function () {
-//   if (start == false) {
-//     console.log("game starded");
-//     start = true;
-//     levelup();
-//   }
-// });
 
 function btnflash(btn) {
   btn.classList.add("flash");
@@ -37,7 +27,7 @@ function Gameflash(btn) {
     btn.classList.remove("gflash");
   }, 200);
 }
-///////
+ 
 function levelup() {
   UserSeq = [];
   level++;
