@@ -11,7 +11,7 @@ body{
 }
 
 .btn {
-    width: 200px;
+    width: 250px; /* Increased width */
     height: 200px;
     border: 2px solid black;
     margin: 10px;
@@ -50,7 +50,8 @@ body{
     margin-top: 20px;
     border-radius: 5px;
     border: 1px solid #ccc;
-    background-color: #f0f0f0;
+    background-color: #1e3a8a; /* Changed background color to a darker blue */
+    color: white; /* Added white text color for visibility */
 }
 
  
@@ -73,8 +74,9 @@ body{
     color: #333;
 }
 
-.rules-container p, .rules-container ul, .rules-container ol {
-    margin-bottom: 15px;
+.rules-container p, .rules-container ul, .rules-container ol, .rules-container li {
+    font-size: 0.9rem; /* Decreased font size for rules */
+    margin-bottom: 10px;
 }
 
 .rules-container ul, .rules-container ol {
@@ -83,4 +85,12 @@ body{
 
 .rules-container li {
     margin-bottom: 5px;
+}
+
+/* Media Query for responsiveness */
+@media (max-width: 768px) {
+    .btn {
+        width: 150px; /* Adjust button size for smaller screens */
+        height: 150px;
+    }
 }
